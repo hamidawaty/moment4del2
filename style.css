@@ -11,7 +11,7 @@
     max-width: 1140px;
     padding-left:20px;
     gap: 1em;
-    margin:10px,auto
+   
 }
 
 
@@ -68,7 +68,7 @@ footer{
     max-height:100px;
 }
 footer p {
-    size: 16px;
+    font-size: 16px;
     color: white;
 }
 @media(max-width: 900px){
@@ -92,9 +92,7 @@ footer p {
     .contanor{
         height: 500px;
     }
-    section{
-        height: 50%;
-    }
+  
     .fotos{
         
         grid-template-columns: 1fr;
@@ -109,7 +107,5 @@ footer p {
     .kurser{
         grid-row: 2;
     }
-    p{
-        size: 20px;
-    }
+   
 }
